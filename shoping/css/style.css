@@ -1,0 +1,248 @@
+/*----NabBar -----*/
+
+.nav-item:hover{
+    
+    background-color: green;
+    transition: .5s ;
+ 
+}
+
+.navbar-brand:hover{
+    background-color: cadetblue;
+    transition: .5s;
+}
+.nav-item{
+    
+    padding: 10px;
+}
+
+.dropdown-item:hover{
+     background-color: green;
+    transition: .5s ;
+}
+
+#navbarSupportedContent{
+    
+    margin-left: 150px;
+}
+
+
+/*----Slider-----*/
+
+#images-size{
+    
+   width: 500PX;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/*----Page content-----*/
+.math{
+   color: black;
+    font-family: fantasy;
+}
+.item{
+    color: red;
+    font-weight: bold;
+    font-family: cursive;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+#images{
+    
+    width: 100%;
+    height: 200px;
+}
+.img-box a{
+    
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+.img-box{
+  position: relative;
+}
+.img-box a{
+
+    position: absolute;
+    z-index: 2;
+    bottom: 70px;
+    left: 50%;
+   opacity: 0;
+    
+    transform: translateX(-50%);
+    
+    
+}
+
+.img-box:hover a{
+   opacity: 1; 
+    transition: .5s;
+}
+
+/*-------Subscribe css----*/
+
+#Email{
+    background-color: black;
+    height: 300px;
+    margin-top: 20px;
+    overflow: hidden;
+  
+}
+.firstWrite{
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.secondWrite{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    margin-left: 50px;
+}
+
+.email{
+    width: 90%;
+    display: block;
+    margin-left: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+.button{
+    margin-left: 50px;
+    height: 40px;
+    width: 155px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.button:hover{
+    background-color: #F8F9FA;
+    color: black;
+}
+
+/*-------Contact part----*/
+
+
+#contactPart{
+    
+    background-color: #F1F1F1;
+ 
+    
+}
+.mainPart{
+    
+    margin-top: 40px;
+    margin-left:20px; 
+}
+.contact{
+    
+    text-align: center;
+}
+
+.contactPhone input{
+    
+    width: 300px;
+    height: 40px;
+ 
+    margin-bottom: 5px;
+}
+.contactPhone input[type='submit']{
+    font-size: 20px;
+    font-family: inherit;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.contactPhone input[type='submit']:hover{
+   background-color:#CCCCCC; 
+     color: black;
+}
+
+
+.About{
+   text-align: center;
+}
+
+
+.About ul li{
+ list-style: none;
+  line-height: 35px;
+}
+.About ul li a{
+    color: black;
+    text-decoration: underline;
+       font-size: 18px;
+}
+
+.Store{
+   text-align: center;
+}
+.Store .fa{
+    margin-right: 10px;
+}
+
+.Store ul li{
+ list-style: none;
+  line-height: 35px;
+    font-size: 15px;
+}
+
+.Store .middle{
+    
+    font-size: 30px;
+    
+}
+.social{
+    margin: 0 auto;
+}
+.social ul{
+margin-left: 60px;
+}
+
+.social ul li{
+        float: left;
+    list-style: none;
+margin: 3px;
+ 
+}
+
+.social ul li .fa{
+    color: #fff;
+}
+.social ul li a:hover{
+    background-color: #fff;
+}
+.social ul li .fa:hover{
+    color: #000;
+}
+.social ul li a{
+     padding: 8px;
+    background-color: black;
+   border-radius: 50%
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+   
+    font-family: inherit;
+   
+}
+h3{
+    font-size: 15px;
+    line-height: 50px;
+}
